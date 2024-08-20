@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px 30px;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: background-color 1s;
+    padding: 3px;
+}
+
+header a:hover{
+    background-color: rgb(144, 134, 134);
+}
+
+#about{
+    position: relative;
+}
+#about p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 6%;
+    left: 40%;
+}
+
+#about img{
+    width: 1500px;
+    z-index: -1;
+}
+
+#about h5{
+    width: 800px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+}
+
+#about h2{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 34%;
+    left: 45%;
+}
+
+#skills,#project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+}
+
+#skills img,#project img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#project ul{
+    width: 900px;
+}
+
+#project li{
+    font-weight: bold;
+}
+
+#project p{
+    font-size: 19px;
+}
+
+#certificates ul{
+    margin-left: 20%;
+}
+
+li{
+    list-style: decimal;
+    font-size: 20px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+h3{
+    margin: 0;
+    padding-top: 10px;
+}
+p{
+    margin: 0;
+    margin-top: 5px;
+}
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
